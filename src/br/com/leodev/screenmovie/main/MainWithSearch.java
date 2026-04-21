@@ -17,7 +17,7 @@ public class MainWithSearch {
         System.out.println("Enter a name movie: ");
         var find = read.nextLine();
 
-        String adress = "https://www.omdbapi.com/?t=" + find + "&apikey=75cb8abb";
+        String adress = "https://www.omdbapi.com/?t=" + find + "&apikey=";
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
