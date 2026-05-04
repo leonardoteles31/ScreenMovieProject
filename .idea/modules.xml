@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ScreenMovieProject.iml" filepath="$PROJECT_DIR$/ScreenMovieProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/env/env.iml" filepath="$PROJECT_DIR$/env/env.iml" />
     </modules>
   </component>
 </project>

@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class Main {
     static void main(String[] args) {
         Movie myMovie = new Movie("Cars", 2006);
-        myMovie.setDurationInMinutes(116);
+        myMovie.setDuration(116);
 
         myMovie.showDetails();
         myMovie.rates(9.0);
@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Average Rating: " + myMovie.rateAverage());
 
         Movie anotherMovie = new Movie("The Incredibles", 2004);
-        anotherMovie.setDurationInMinutes(115);
+        anotherMovie.setDuration(115);
         anotherMovie.showDetails();
         System.out.println("Total Ratings: " + anotherMovie.getTotalRatings());
         System.out.println("Average Rating: " + anotherMovie.rateAverage());
@@ -31,7 +31,7 @@ public class Main {
         GossipGirl.setSeasons(6);
         GossipGirl.setEpisodesPerSeason(20);
         GossipGirl.setMinutesPerEpisode(45);
-        System.out.println("Duration of the serie in minutes: " + GossipGirl.getDurationInMinutes());
+        System.out.println("Duration of the serie in minutes: " + GossipGirl.getDuration());
 
         TimeCalculator calculator = new TimeCalculator();
         calculator.include(myMovie);

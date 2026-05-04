@@ -12,10 +12,10 @@ public class TimeCalculator {
     }
 
     public void include(Movie m) {
-        this.totalTime += m.getDurationInMinutes();
+        this.totalTime += m.getDuration();
     }
 
     public void include(Title t) {
-        this.totalTime += t.getDurationInMinutes();
+        this.totalTime += t.getDuration();
     }
 }
